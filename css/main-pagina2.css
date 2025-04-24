@@ -1,0 +1,25 @@
+@media screen and (min-width: 1000px) {
+  main section {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  main section article {
+    width: 30%;
+  }
+}
+
+.salida {
+  padding: 15px;
+  display: grid;
+  align-items: center;
+}
+.img {
+  aspect-ratio: 16/9;
+}
+article {
+  padding: 10px;
+  margin-bottom: 35px;
+}
+article a {
+  color: gray;
+}

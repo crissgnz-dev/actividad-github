@@ -1,0 +1,31 @@
+@media screen and (min-width: 1000px) {
+  footer {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #direcciones {
+    width: 25%;
+  }
+  #redes {
+    width: 125px;
+  }
+  #politicas {
+    margin: 2% auto;
+    width: 50%;
+    justify-content: space-around;
+  }
+}
+footer {
+  text-align: center;
+  padding-bottom: 1%;
+}
+footer p {
+  margin-top: 2.5px;
+}
