@@ -37,6 +37,6 @@ header {
   text-decoration: none;
 }
 .register {
-  color: white;
-  background-color: black;
+  color: var(--primer-color);
+  background-color: var(--segundo-color);
 }

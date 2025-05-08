@@ -3,6 +3,7 @@
 :root {
   --primer-color: rgb(245, 245, 245);
   --segundo-color: rgb(20, 20, 20);
+  --acento-color: rgb(168, 255, 97);
 }
 
 * {

@@ -22,10 +22,10 @@ main p {
   margin-bottom: 25px;
 }
 main div input {
-  border: 1px solid black;
+  border: 1px solid var(--segundo-color);
   font-size: 1.15em;
   padding: 15px;
-  background-color: white;
+  background-color: var(--primer-color);
 }
 ::placeholder {
   color: rgb(156, 156, 156);

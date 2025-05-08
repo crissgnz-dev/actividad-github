@@ -24,11 +24,11 @@ main form {
   justify-content: space-evenly;
 }
 main form input {
-  border: 1px solid black;
+  border: 1px solid var(--segundo-color);
   width: 80%;
   font-size: 1.15em;
   padding: 15px;
-  background-color: white;
+  background-color: var(--primer-color);
 }
 ::placeholder {
   color: rgb(156, 156, 156);
@@ -40,4 +40,9 @@ main form input {
 main p {
   width: 75%;
   color: grey;
+}
+.salida {
+  padding: 15px;
+  display: grid;
+  align-items: center;
 }
