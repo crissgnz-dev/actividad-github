@@ -21,5 +21,5 @@ article {
   margin-bottom: 35px;
 }
 article a {
-  color: gray;
+  color: var(--acento-color);
 }

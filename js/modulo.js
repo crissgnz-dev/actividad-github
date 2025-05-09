@@ -11,6 +11,20 @@ header.innerHTML = `
         <a href="galeria.html" class="botones">Lorem</a>
         <a href="register.html" class="botones register">Ipsum</a>
       </nav>
+  
+      <input type="checkbox" id="menu" />
+      <label for="menu" class="menu-icon">
+        <span><img src="image/menu.png"></span>
+      </label>
+      <nav class="menu">
+        <ul>
+          <li><a href="galeria.html">Lorem</a></li>
+          <hr />
+          <li><a href="register.html">Ipsum</a></li>
+        </ul>
+      </nav>
+
+
 `;
 
 footer.innerHTML = `

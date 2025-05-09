@@ -3,15 +3,19 @@
 :root {
   --primer-color: rgb(245, 245, 245);
   --segundo-color: rgb(20, 20, 20);
-  --acento-color: rgb(168, 255, 97);
+  --acento-color: rgb(220, 220, 220);
 }
-
+hr {
+  border: 1px solid var(--acento-color);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+li {
+  list-style: none;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background-color: var(--primer-color);
